@@ -1,16 +1,55 @@
-# The Collector's Nexus
+# 🃏 The Collector's Nexus
 
-A cross-TCG application for managing and tracking Magic: The Gathering (MTG) and Pokémon TCG (PTCG) collections.
+**MTG Data Integration MVP** - A comprehensive Magic: The Gathering collection management platform with unified data source integration.
 
-## Project Structure
+![MTG](https://img.shields.io/badge/MTG-Data%20Integration-blue) ![Node.js](https://img.shields.io/badge/Node.js-Backend-green) ![Next.js](https://img.shields.io/badge/Next.js-Frontend-black) ![TypeScript](https://img.shields.io/badge/TypeScript-Full%20Stack-blue)
 
-```
+## 🚀 Features
+
+### Core Data Integration
+- **Multi-Source MTG Data**: Unified access to Scryfall, MTGJSON, and CardTrader APIs
+- **Real-time Price Tracking**: Live market data and pricing history
+- **Automated Synchronization**: Configurable data sync intervals and manual triggers
+- **Smart Caching**: Optimized data retrieval with configurable TTL
+
+### API Endpoints
+- 🔍 **Card Search**: Advanced filtering and pagination
+- 💰 **Price Data**: Current market prices and historical trends  
+- 📚 **Set Information**: Complete set listings and metadata
+- 🔄 **Sync Management**: Manual data synchronization controls
+
+### User Management
+- 🔐 **JWT Authentication**: Secure user registration and login
+- 👤 **User Profiles**: Customizable user accounts
+- 📋 **Collection Management**: Track owned cards and quantities
+- ⭐ **Wishlist System**: Save and organize desired cards
+
+## 🛠️ Tech Stack
+
+### Backend
+- **Node.js** + **Express.js** - RESTful API server
+- **TypeScript** - Type-safe development
+- **MongoDB** - Document database (ready for integration)
+- **JWT** - Secure authentication
+- **Axios** - HTTP client for external APIs
+
+### Frontend (Coming Soon)
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Full type safety
+- **Tailwind CSS** - Modern styling
+
+### External APIs
+- **Scryfall API** - Comprehensive MTG card data
+- **MTGJSON** - Bulk JSON datasets
+- **CardTrader API** - Marketplace pricing data
+
+## 🏗️ Project Structure
+
 collector-nexus/
 ├── backend/           # Backend (Node.js/Express)
 ├── frontend/          # Frontend (Next.js/React)
 ├── docs/              # Documentation
 └── scripts/           # Utility scripts
-```
 
 ## Prerequisites
 
